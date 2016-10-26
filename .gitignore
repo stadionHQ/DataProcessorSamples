@@ -1,0 +1,57 @@
+# GIT IGNORE FILE
+_ReSharper.*
+*.suo
+[Oo]bj
+*.cache
+[Bb]in
+build/prepare
+
+*.orig
+Thumbs.db
+*.ncrunchsolution
+*.user
+*.sln.DotSettings.user
+
+_NCrunch*
+/build/
+*.swp
+*.swo
+/*.dll
+/*.pdb
+/*.xml
+/Logs
+.vs/
+*.dbmdl
+/node_modules/*
+/node modules/*
+
+# SITECORE DATA
+/src/data/diagnostics/
+/src/data/indexes/*
+/src/data/logs/
+/src/data/viewstate/
+/src/data/servicelogs/
+/data/CT3/Data/files/source/*
+/data/packages/*
+/SitecoreDatabases/*
+/src/*.Sitecore/App_Data/MediaCache/
+
+/src/Sitecore/DigitalSportPlatform.Demo.Sitecore/data/diagnostics/
+/src/Sitecore/DigitalSportPlatform.Demo.Sitecore/data/indexes/
+/src/Sitecore/DigitalSportPlatform.Demo.Sitecore/data/logs/
+/src/Sitecore/DigitalSportPlatform.Demo.Sitecore/data/viewstate/
+
+
+/src/Umbraco/DigitalSportPlatform.Demo.Umbraco/App_Data/*
+
+/packages/*
+
+# SITECORE SHELL
+
+
+
+/*.DotSettings
+
+src/DigitalSportPlatform.Core.Tests/App_Data/SportsData.mdf
+src/DigitalSportPlatform.Core.Tests/App_Data/SportsData.ldf
+
