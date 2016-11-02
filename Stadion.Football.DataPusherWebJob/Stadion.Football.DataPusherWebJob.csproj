@@ -363,12 +363,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\DataProviders\Football\DigitalSportPlatform.DataProviders.WhoScored\Stadion.DataProviders.WhoScored.csproj">
-      <Project>{2df5bc41-d833-4e89-aaeb-4942730c9d47}</Project>
-      <Name>Stadion.DataProviders.WhoScored</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
