@@ -8,7 +8,7 @@ namespace FootballDataProcessorWebJob
     public class Program 
     {
       
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
 
             JobHost host = new JobHost();
@@ -19,7 +19,7 @@ namespace FootballDataProcessorWebJob
         public static void ProcessQueueMessage([QueueTrigger("footballdata")] CloudQueueMessage binaryFile, TextWriter logger)
         {
 
-            WebjobDataProcessor dataProcessor = new WebjobDataProcessor();
+            var dataProcessor = new WebjobDataProcessor();
             dataProcessor.ProcessMessage(binaryFile);
         }
 
