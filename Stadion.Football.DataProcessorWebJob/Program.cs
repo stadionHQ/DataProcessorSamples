@@ -11,7 +11,11 @@ namespace FootballDataProcessorWebJob
         public static void Main(string[] args)
         {
 
-            JobHost host = new JobHost();
+            JobHostConfiguration config = new JobHostConfiguration();
+
+            config.Queues.BatchSize = 1;
+            config.Queues.MaxDequeueCount = 1;
+            JobHost host = new JobHost(config);
 
             host.RunAndBlock();
         }

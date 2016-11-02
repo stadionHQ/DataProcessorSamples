@@ -15,11 +15,16 @@ namespace Stadion.Football.DataPusherWebJob
         {
             try
             {
-                
+                JobHostConfiguration config = new JobHostConfiguration();
+              
+                config.Queues.BatchSize = 1;
+                config.Queues.MaxDequeueCount = 1;
 
-                var host = new JobHost();
+                var host = new JobHost(config);
                 // The following code ensures that the WebJob will be running continuously
                 host.RunAndBlock();
+
+
             }
             catch (Exception ex)
             {
