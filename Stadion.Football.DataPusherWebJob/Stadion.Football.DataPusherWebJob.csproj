@@ -81,7 +81,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="FrwTwemoji, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stadion.Core.1.0.357\lib\net45\FrwTwemoji.dll</HintPath>
+      <HintPath>..\packages\Stadion.Core.1.0.363\lib\net45\FrwTwemoji.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Handlebars, Version=1.0.5579.20225, Culture=neutral, PublicKeyToken=22225d0bf33cd661, processorArchitecture=MSIL">
@@ -229,15 +229,19 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Stadion.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stadion.Core.1.0.357\lib\net45\Stadion.Core.dll</HintPath>
+      <HintPath>..\packages\Stadion.Core.1.0.363\lib\net45\Stadion.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Stadion.Core.Football, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stadion.Core.Football.1.0.357\lib\net45\Stadion.Core.Football.dll</HintPath>
+      <HintPath>..\packages\Stadion.Core.Football.1.0.363\lib\net45\Stadion.Core.Football.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Stadion.DataProviders.Opta.Football, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stadion.DataProviders.Opta.Football.1.0.358\lib\net45\Stadion.DataProviders.Opta.Football.dll</HintPath>
+      <HintPath>..\packages\Stadion.DataProviders.Opta.Football.1.0.363\lib\net45\Stadion.DataProviders.Opta.Football.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Stadion.DataProviders.WhoScored, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stadion.DataProviders.WhoScored.1.0.363\lib\net45\Stadion.DataProviders.WhoScored.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StructureMap, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
